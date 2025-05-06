@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+
+    <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/style-modal.css">
+
+
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+
+    <!-- INICIO DE MENÚ -->
+    <header id="header">
+        <nav class="menu">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/Logo_BGeraser.svg" alt="" class="img-fluid logos">
+                </a>
+
+                <a href="#" class="btn-menu" id="btn-menu">
+                    <i class="icono-menu fa-solid fa-bars"></i>
+                </a>
+            </div>
+
+            <div class="enlaces" id="enlaces">
+                <a href="#"> Inicio</a>
+                <a href="nosotros.html"> Nosotros</a>
+                <a href="venta_libros.html"> Catálogo</a>
+                <a href="productos.html"> Biblioteca</a>
+                <a href="#servicios"> Servicios</a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#Login"><i class="fa-regular fa-user"></i> Iniciar Sesión</a>
+            </div>
+        </nav>
+    </header>
+    <!-- FIN DE MENÚ -->
+
+    <main>
+        <!-- INICIO DE BANNER -->
+        <section class="banner">
+            <img src="img/banner-img.jpg" alt="" class="img-fluid banner-img">
+
+            <div class="container">
+                <div class="row centrado">
+                    <div class="banner-data">
+                        <h1 class="banner-titulo"> VIAJA GRATIS LEYENDO</h1></br>
+                        <a href="#" class="banner-boton"> Ir a la biblioteca</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN DE BANNER -->
+
+        <br><br><br><br>
+
+        <!-- INICIO CARDS -->
+        <div class="container">
+            <h2 class="CHB-titulo">NOVEDADES</h2><br>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/post1.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/post3.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/post2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIN DE CARDS -->
+
+        <br><br><br>
+        <!-- ojiyo -->
+        <div class="container">
+        <!-- <section class="servicio-container"> -->
+            <h2 class="CHB-titulo" id="servicios">SERVICIOS</h2><br>
+            <div class="servicio-boton">
+                <button class="serviciob btn-1"><a href="productos.html">Préstamos de libros</a></button>
+                <button class="serviciob btn-2"><a href="venta_libros.html">Librería Virtual</a></button>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <!-- INICIO CARDS - LIBROS -->
+        <div class="container lib">
+            <h2 class="CHB-titulo">ALGUNOS LIBROS</h2><br>
+            <div class="cards-lib-grid">
+
+                <div class="card-lib">
+                    <div class="card-lib-img">
+                        <img src="img/libro_1.jpg" alt="">
+                    </div>
+                    <div class="card-lib-content">
+                        <h2 class="card-title">Encuentra tu persona vitamina</h3>
+                        <h4 class="card-precio-libro">S/ 99.90 <sup class="card-precio-ant">S/ 120.00</sup> </h4>
+                        <a href="#" class="opcionesb card-boton1"> Comprar</a>
+                        <a href="#" class="opcionesb card-boton2" data-bs-toggle="modal" data-bs-target="#Detalles"> Detalles</a>
+                    </div>
+                </div>
+
+                <div class="card-lib">
+                    <div class="card-lib-img">
+                        <img src="img/libro_2.jpg" alt="">
+                    </div>
+                    <div class="card-lib-content">
+                        <h3 class="card-title">La hipótesis del amor</h3>
+                        <h4 class="card-precio-libro">S/ 95.90 <sup class="card-precio-ant">S/ 110.00</sup> </h4>
+                        <a href="#" class="opcionesb card-boton1"> Comprar</a>
+                        <a href="#" class="opcionesb card-boton2" data-bs-toggle="modal" data-bs-target="#Detalles"> Detalles</a>
+                    </div>
+                </div>
+
+                <div class="card-lib">
+                    <div class="card-lib-img">
+                        <img src="img/libro_3.jpg" alt="">
+                    </div>
+                    <div class="card-lib-content">
+                        <h3 class="card-title">El mal acecha</h3>
+                        <h4 class="card-precio-libro">S/ 70.90 <sup class="card-precio-ant">S/ 90.00</sup></h4>
+                        <a href="#" class="opcionesb card-boton1"> Comprar</a>
+                        <a href="#" class="opcionesb card-boton2" data-bs-toggle="modal" data-bs-target="#Detalles"> Detalles</a>
+                    </div>
+                </div>
+
+                <div class="card-lib">
+                    <div class="card-lib-img">
+                        <img src="img/libro_4.jpg" alt="">
+                    </div>
+                    <div class="card-lib-content">
+                        <h3 class="card-title">¡Las chicas jugamos de todo!</h3>
+                        <h4 class="card-precio-libro">S/ 65.00 <sup class="card-precio-ant">S/ 85.00</sup></h4>
+                        <a href="#" class="opcionesb card-boton1" data-bs-toggle="modal" data-bs-target="#Reservar"> Comprar</a>
+                        <a href="#" class="opcionesb card-boton2" data-bs-toggle="modal" data-bs-target="#Detalles"> Detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- INICIO DE MODAL -->
+        <!-- DETALLES -->
+        <div class="modal fade" id="Detalles" tabindex="-1" aria-labelledby="Detalles" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+                <div class="modal-content modal-detalles">
+                    <div class="modal-header">
+                        <h3 class="modal-title col-11 text-center modal-titulo" id="Detalles"><i class="fa-solid fa-book"></i> (Nombre del libro)</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-4  text-center">
+                                    <img src="img/portada-ejemplo.jpg" alt="" class="img-fluid">
+                                    <h4 class="card-precio-libro">S/ 65.00 <sup class="card-precio-ant">S/ 85.00</sup></h4>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-8">
+                                    <p>
+                                        <span><i class="fa-solid fa-caret-right"></i> Sinopsis: </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci quo ullam quidem praesentium et blanditiis error necessitatibus sapiente magnam, facilis nemo ratione tenetur consequatur dolores dolore accusamus corporis ipsa!
+                                        Necessitatibus ullam reprehenderit tempora voluptatum. Tenetur vitae nulla eligendi. Quidem, nesciunt qui? Ullam voluptas blanditiis suscipit earum! Ea doloribus suscipit aperiam ducimus maiores repellendus. At eum libero quod fugit nesciunt! <a href="#">Ver más...</a>
+                                    </p>
+                                  
+                                    <ul>
+                                        <li><span><i class="fa-solid fa-caret-right"></i> Características</span></li>
+                                        <ol>
+                                            <li><span>Categoría: </span> Historia</li>
+                                            <li><span>Tipo de publicación: </span> Libro</li>
+                                            <li><span>Tipo de material: </span> Tapa Blanca</li>
+                                            <li><span>Autor: </span> BNP</li>
+                                            <li><span>Año: </span> 2021</li>
+                                            <li><span>Página: </span> 358</li>
+                                            <li><span>Dimensiones: </span> 24.5cm x 28cm</li>
+                                            <li><span>Peso: </span> 180g</li>
+                                        </ol>
+                                    </ul> 
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary btn-confirmar"><a class="btn-comprar" href="proceso_compra.html">Comprar</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- RESERVAR LIBRO -->
+        <div class="modal fade" id="Reservar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Reservar" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title modal-titulo col-11 text-center" id="Reservar"><i class="fa-solid fa-book"></i> Reservar (Nombre del libro)</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form class="modal-prestamo">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-6">
+                                        <label for="documento" class="col-form-label">Tipo de Documento:</label>
+                                        <div class="input-modal">
+                                           <input type="" class="form-control" id="docuemnt" name="" value=""> 
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-6">
+                                        <label for="num-documento" class="col-form-label">Númeor de documento:</label>
+                                        <div class="input-modal">
+                                           <input type="number" class="form-control" id="num-docuemnt" name="" value=""> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-6">
+                                        <label for="nombres" class="col-form-label">Nombres:</label>
+                                        <div class="input-modal">
+                                           <input type="text" class="form-control" id="Nombres" name="" value=""> 
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-6">
+                                        <label for="Apellidos" class="col-form-label">Apellidos:</label>
+                                        <div class="input-modal">
+                                           <input type="text" class="form-control" id="Apellidos" name="" value=""> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-6">
+                                        <label for="Celular" class="col-form-label">Telefono o Celular</label>
+                                        <div class="input-modal">
+                                           <input type="number" class="form-control" id="Celular" name="" value=""> 
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-6">
+                                        <label for="correo" class="col-form-label">Correo:</label>
+                                        <div class="input-modal">
+                                           <input type="email" class="form-control" id="correo" name="" value=""> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-6">
+                                        <label for="fecha-nacimiento" class="col-form-label">Fecha de Nacimiento:</label>
+                                        <div class="input-modal">
+                                           <input type="date" class="form-control" id="fecha-nacimiento" name="" value=""> 
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-6">
+                                        <label for="distrito" class="col-form-label">Distrito:</label>
+                                        <div class="input-modal">
+                                            <select class="form-select select-modalidad" name="" id="modalidad">
+                                                <option value="">Seleccione su Distrito</option>
+                                                <option value="">La Molina</option>
+                                                <option value="">San Miguel</option>
+                                                <option value="">Santiago de Surco</option>
+                                                <option value="">Independencia</option>
+                                                <option value="">Ate</option>
+                                                <option value="">Barranco</option>
+                                                <option value="">Los Olivos</option>
+                                                <option value="">San Juan de Lurigancho</option>
+                                                <option value="">Otro</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <label for="direccion" class="col-form-label">Dirección:</label>
+                                    <div class="input-modal col-xs-12 col-sm-12 col-md-12">
+                                       <input type="text" class="form-control" id="direccion" name="" value=""> 
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <label for="modalidad" class="col-form-label">Seleccione modalidad de entrega:</label>
+                                    <div class="input-modal col-xs-12 col-sm-12 col-md-12">
+                                       <select class="form-select select-modalidad" name="" id="modalidad">
+                                           <option value="">Seleccione la modalidad de entrega</option>
+                                           <option value="">Entrega a domicilio</option>
+                                           <option value="">Recoger de tienda</option>
+                                           <option value="">Entrega a terceros</option>
+                                       </select>
+                                    </div>
+                                </div>              
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary btn-confirmar" data-bs-target="#confirmacion" data-bs-toggle="modal" data-bs-dismiss="modal">Reservar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="confirmacion" aria-hidden="true" aria-labelledby="confirmacion" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="confirmacion"><i class="fa-solid fa-check"></i> Confirmación de reserva</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Su reserva ha sido registrada exitosamente. <br>
+                    Se le enviará un correo de confirmación de cuando y donde resivirá el libro. <br>
+                    Gracias por su reserva, <br>
+                    Atentamente el grupo de Chasqui Book.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary btn-confirmar" data-bs-dismiss="modal">Aceptar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- FIN DE MODAL -->
+        <!-- MODAL LOGIN  -->
+        <div class="modal fade" id="Login" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Login" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title modal-titulo col-11 text-center" id="Login"><i class="fa-solid fa-user"></i> Iniciar Sesión</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form class="modal-prestamo">
+                                <div class="row">                                    
+                                    <div class="col-xs-12 col-sm-12 col-md-12">
+                                        <label for="Apellidos" class="col-form-label">DNI(Documento de identidad):</label>
+                                        <div class="input-modal">
+                                            <input type="number" class="form-control" id="dni" placeholder="Ej.: 72806558"> 
+                                        </div>
+                                    </div>
+                                </div>                                                     
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <label for="direccion" class="col-form-label">Contraseña:</label>
+                                    <div class="input-modal col-xs-12 col-sm-12 col-md-12">
+                                       <input type="password" class="form-control" id="password" value="" placeholder="Ej.: Hola123456"> 
+                                    </div>
+                                </div>             
+                            </form>
+                            <br>
+                            <div class="row">
+                                <div class="d-grid gap-2 col-6 mx-auto col-xs-12 col-sm-12 col-md-6 mb-2">
+                                    <button class="btn btn-primary btn-confirmar" type="button" onclick="">Iniciar Sessión</button>
+                                </div>
+                                
+                                <div class="d-grid gap-2 col-6 mx-auto col-xs-12 col-sm-12 col-md-6 mb-2">
+                                    <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Cancelar</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <p>¿No tienes cuenta? <a href="#" class="enlace-login" data-bs-target="#registrar" data-bs-toggle="modal" data-bs-dismiss="modal">Regístrate Aquí</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="registrar" aria-hidden="true" aria-labelledby="registrar" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title modal-titulo col-11 text-center" id="registrar"><i class="fa-solid fa-user-pen"></i> Regístrate</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form class="modal-prestamo">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                    <label for="nombres" class="col-form-label">Nombre y Apellidos:</label>
+                                    <div class="input-modal">
+                                       <input type="text" class="form-control" id="nombre" placeholder="Ej.: Juan Gabriel"> 
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                    <label for="Apellidos" class="col-form-label">DNI(Documento de identidad):</label>
+                                    <div class="input-modal">
+                                        <input type="number" class="form-control" id="dni" placeholder="Ej.: 72806558"> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                    <label for="Celular" class="col-form-label">Telefono o Celular</label>
+                                    <div class="input-modal">
+                                       <input type="number" class="form-control" id="celular" placeholder="Ej.: 987456123"> 
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                    <label for="distrito" class="col-form-label">Distrito:</label>
+                                    <div class="input-modal">
+                                        <select class="form-select select-modalidad" name="" id="distrito">
+                                            <option value="">Seleccione su Distrito</option>
+                                            <option value="">La Molina</option>
+                                            <option value="">San Miguel</option>
+                                            <option value="">Santiago de Surco</option>
+                                            <option value="">Independencia</option>
+                                            <option value="">Ate</option>
+                                            <option value="">Barranco</option>
+                                            <option value="">Los Olivos</option>
+                                            <option value="">San Juan de Lurigancho</option>
+                                            <option value="">Otro</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>   
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <label for="direccion" class="col-form-label">Entidad o Profesión:</label>
+                                <div class="input-modal col-xs-12 col-sm-12 col-md-12">
+                                   <input type="text" class="form-control" id="entidad" value="" placeholder="Ej.: Docente Universitario"> 
+                                </div>
+                            </div>                                                                           
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <label for="direccion" class="col-form-label">Contraseña:</label>
+                                <div class="input-modal col-xs-12 col-sm-12 col-md-12">
+                                   <input type="password" class="form-control" id="password" value="" placeholder="Ej.: Hola123456"> 
+                                </div>
+                            </div>             
+                        </form>
+                        <br>
+                        <div class="row">
+                            <div class="d-grid gap-2 col-6 mx-auto col-xs-12 col-sm-12 col-md-6 mb-2">
+                                <button class="btn btn-primary btn-confirmar" type="button" onclick="">Registrarse</button>
+                            </div>
+                            
+                            <div class="d-grid gap-2 col-6 mx-auto col-xs-12 col-sm-12 col-md-6 mb-2">
+                                <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Cancelar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p>¿Ya tienes cuenta? <a href="#" class="enlace-login" data-bs-target="#Login" data-bs-toggle="modal" data-bs-dismiss="modal">Inicia Sesión</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- FIN MODAL LOGIN  -->
+        <!-- FINAL DE CARDS - LIBROS -->
+
+        <div class="container">
+            <form class="form-boletin" action="">
+                <h2 class="form-titulo">SUSCRÍBETE A NUESTRO BOLETÍN</h2>
+                    <input class="control" type="email"  name="email" placeholder="Ingresa tu email"><br>
+                    <input class="form-btn" type="submit" name="Suscribir">
+            </form>
+        </div>
+        
+        <br><br><br>
+
+    </main>
+
+    
+
+    <!-- INICIO DE FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <h1 class="CHB-titulo">MANTENTE ACTUALIZADO</h1>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/profile.php?id=100086574635209"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/lib_chasquibook/?theme=dark"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+
+            <p class="txt-footer">© 2022 Copyright Chasqui Book | Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <!-- FIN DE FOOTER -->    
+    
+    <script src="js/bootstrap.js"></script>
+    <script src="js/headroom.min.js"></script>
+    <script src="js/menu-flex.js"></script>
+
+</body>
+</html>

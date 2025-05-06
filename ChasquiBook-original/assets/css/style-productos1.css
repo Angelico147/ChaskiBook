@@ -1,0 +1,180 @@
+.menu-filtro{
+    padding: 10px;
+}
+
+.menu-filtro a{
+    text-decoration: none;
+    padding: 8px;
+}
+
+:root{
+    --color-primario: #3A91AF;
+    --color-secundario: #082B45;
+    --color-terciario: #000000;
+    --color-sombras: #74777a;
+    --color-títulos: #000000;
+    --color-fondo: #faf8f8;
+}
+
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-fondo);
+}
+
+/* INICIO DE MENÚ */
+
+header{
+    background-color: #FFF;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3000;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.4);
+}
+
+.menu{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.menu .logo img{
+    height: 95px;
+}
+
+.menu .btn-menu{
+    display: none;
+}
+
+.menu .enlaces{
+    display: inline-block;
+    text-align: right;
+}
+
+.menu .enlaces a{
+    color: var(--color-títulos);
+    text-decoration: none;
+    padding: 1em;
+    font-size: 1em;
+    text-align: center;
+    /*font-family: serif;*/
+}
+
+.menu .enlaces a:hover{
+    color: #1F5E73;
+}
+
+.headroom{
+    transition: transform .3s ease;
+}
+
+.headroom--pinned{
+    transform: translateY(0%);
+}
+
+.headroom--unpinned{
+    transform: translateY(-100%);
+}
+
+/* PROPIEDADES PARA DISPOSITIVOS MÓVILES */
+@media screen and (max-width:1000px){
+    header .menu{
+        flex-direction: column;
+    }
+
+    header .menu .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: .4em;
+    }
+
+    header .menu .logo .btn-menu{
+        display: inline-block;
+        color: black;
+        font-size: 1.7em;
+        margin-top: .6em;
+    }
+
+    header .menu .enlaces{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+/* FIN PROPIEDADES PARA DISPOSITIVOS MÓVILES */
+
+
+/* FIN DE MENÚ */
+.card-general{
+    background-color:#d9d9d9
+}
+
+
+/* INICIO DE FOOTER */
+
+footer{
+    background: #000;
+    height: auto;
+    width: 100%;
+    padding-top: 5em;
+    color: var(--color-fondo);
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+}
+
+.socials li{
+    margin: 1em;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.socials a i{
+    font-size: 2.5em;
+}
+
+.txt-footer{
+    text-align: center;
+    font-size: 1em;
+}
+/* FIN DE FOOTER */
+
+
+/* --------------------------------inicio -BOSTRAP--------------------------- */
+#Secciones-generales{
+    background-color: #d9d9d9;
+}
+
+#Secciones-generales-1{
+    background-color: #d9d9d9;
+
+}
+#Cards-generales{
+    background-color: #d9d9d9;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/compra.css">
+    
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+    <!-- INICIO DE MENÚ -->
+    <header id="header">
+        <nav class="menu">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/Logo_BGeraser.svg" alt="" class="img-fluid logos">
+                </a>
+
+                <a href="#" class="btn-menu" id="btn-menu">
+                    <i class="icono-menu fa-solid fa-bars"></i>
+                </a>
+            </div>
+
+            <div class="enlaces" id="enlaces">
+                <a href="index.html"> Inicio</a>
+                <a href="nosotros.html"> Nosotros</a>
+                <a href="productos.html"> Catálogo</a>
+                <a href="#"> Biblioteca</a>
+                <a href="#servicios"> Servicios</a>
+            </div>
+        </nav>
+    </header>
+    <!-- FIN DE MENÚ -->
+
+    <!-- INICIO CONTENEDOR -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8">
+                <div class="main">
+                    <form action="proceso_2.html">
+                        <div class="titulo">
+                            <img src="img/numero-uno.png" class="img-fluid number">
+        
+                            <h2 class="text">Información de envío</h2>
+                        </div>
+
+                        <div class="description">
+
+                            <label>Nombre y Apellidos:
+                                <!-- for="nombre" -->
+                                <input type="text" class="content" required>
+                                <!-- name="name" id="nombre" -->
+                            </label>
+                            <br>
+
+                            <label >DNI: 
+                                <!-- for="id" -->
+                                <input type="text" class="content"  required>
+                                <!-- name="id" id="dni"-->
+                            </label>
+                            <br>
+
+                            <label>Teléfono:
+                                <!-- for="tel" -->
+                                <input type="tel" class="content"  required>
+                                <!-- name="telephone" id="telefono" -->
+                            </label>
+                            <br>
+
+                            <label>Correo Electrónico:
+                                <!-- for="email" -->
+                                <input type="email" class="content"  required>
+                                <!-- name="email"  id="email"-->
+                            </label>
+                            <br>
+
+                            <label>Dirección:
+                                <!--  for="address" -->
+                                <input type="text" class="content"  required>
+                                <!-- name="address" id="direccion" -->
+                            </label>
+                            <br><br>
+
+                            <fieldset>
+                                <legend>Tipo de entrega</legend>
+                                <br><br>
+                            
+                                <div class="cargo">
+                                    <label for="store">
+                                        <input type="radio" id="store" name="entrega" value="store" required> <!-- checked -->
+                                    Recojo en tienda</label>
+                                                        
+                                    <label for="delivery">
+                                        <input type="radio" id="delivery" name="entrega" value="delivery" required>
+                                    Delivery</label>
+                                </div>
+                            
+                            </fieldset>
+                            
+                            <br><br>
+
+                            <input type="reset" value="Regresar" class="button">
+                            <!-- reset -->
+
+                            <input type="submit" value="Pagar" class="button">
+                            <!-- submit -->
+
+                        </div> 
+                    </form>  
+                
+                </div>
+
+            </div>
+                
+
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="main">    
+                    <form action="">
+                        <h1 class="subtitulo">Resumen de Compra</h1>
+                        <hr width="100%" color="#787878" />
+
+                        <label class="det">Cantidad:
+                            <!-- for="" -->
+                            <input class="box" type="number" placeholder="0" readonly>
+                            <!-- name="" id="" -->
+                        </label>
+                        <br>
+    
+                        <label class="det">Subtotal: 
+                            <!-- for="" -->
+                            <input class="box" type="number" placeholder="S/. 0.00" readonly>
+                            <!-- name="" id=""-->
+                        </label>
+                        <br>
+    
+                        <label class="det">Delivery:
+                            <!-- for="" -->
+                            <input class="box" type="number" placeholder="S/. 0.00" readonly>
+                            <!-- name="" id="" -->
+                        </label>
+                        <br>
+    
+                        <label class="det">IGV:
+                            <!-- for="" -->
+                            <input class="box" type="number" placeholder="S/. 0.00" readonly>
+                            <!-- name=""  id=""-->
+                        </label>
+                        <br>
+    
+                        <hr width="100%" color="#787878" />
+                        <label class="det">TOTAL:
+                            <!-- for="" -->
+                            <input class="box" type="number" placeholder="S/. 0.00" readonly>
+                            <!-- name=""  id=""-->
+                        </label>
+                    </form>
+
+                </div>               
+            </div>
+
+        </div>
+    </div>    
+    <script src="js/bootstrap.js"></script>
+    <script src="js/headroom.min.js"></script>
+    <script src="js/menu-flex.js"></script>
+</body>
+</html>

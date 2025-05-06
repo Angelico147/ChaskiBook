@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/compra.css">
+    
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+    <!-- INICIO DE MENÚ -->
+    <header id="header">
+        <nav class="menu">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/Logo_BGeraser.svg" alt="" class="img-fluid logos">
+                </a>
+
+                <a href="#" class="btn-menu" id="btn-menu">
+                    <i class="icono-menu fa-solid fa-bars"></i>
+                </a>
+            </div>
+
+            <div class="enlaces" id="enlaces">
+                <a href="index.html"> Inicio</a>
+                <a href="nosotros.html"> Nosotros</a>
+                <a href="productos.html"> Catálogo</a>
+                <a href="#"> Biblioteca</a>
+                <a href="#servicios"> Servicios</a>
+            </div>
+        </nav>
+    </header>
+    <!-- FIN DE MENÚ -->
+
+    <!-- INICIO CONTENEDOR -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8">
+                <div class="main">
+                    <form action="">
+                        <div class="titulo">
+                            <img src="img/numero-uno.png" class="img-fluid number">
+        
+                            <h2 class="text">Medio de Pago</h2>
+                        </div>
+
+                        <div class="description">
+
+                            <label>Nº de la tarjeta:
+                                
+                                <input type="text" class="content" required>
+                                
+                            </label>
+                            <br>
+
+                            <label >Fecha de Expiración: 
+                                
+                                <select name="date" id="date-select">
+                                    <option value=""> Mes: </option>
+                                    <option value="enero">Enero</option>
+                                    <option value="febrero">Febrero</option>
+                                    <option value="marzo">Marzo</option>
+                                    <option value="abril">Abril</option>
+                                    <option value="mayo">Mayo</option>
+                                    <option value="junio">Junio</option>
+                                    <option value="julio">Julio</option>
+                                    <option value="agosto">Agosto</option>
+                                    <option value="setiembre">Setiembre</option>
+                                    <option value="octubre">Octubre</option>
+                                    <option value="noviembre">Noviembre</option>
+                                    <option value="diciembre">Diciembre</option>
+                                </select>
+
+                                <select name="pets" id="date-select">
+                                    <option value=""> Año: </option>
+                                    <option value="">2022</option>
+                                    <option value="">2021</option>
+                                    <option value="">2020</option>
+                                    <option value="">2019</option>
+                                    <option value="">2018</option>
+                                    <option value="">2017</option>
+                                    <option value="">2016</option>
+                                    <option value="">2015</option>
+                                    <option value="">2014</option>
+                                    <option value="">2013</option>
+                                    <option value="">2012</option>
+                                    <option value="">2011</option>
+                                    <option value="">2010</option>
+                                    <option value="">2009</option>
+                                    <option value="">2008</option>
+                                    <option value="">2007</option>
+                                    <option value="">2006</option>
+                                    <option value="">2005</option>
+                                    <option value="">2004</option>
+                                    <option value="">2003</option>
+                                    <option value="">2002</option>
+                                    <option value="">2001</option>
+                                    <option value="">2000</option>
+                                </select>
+                                
+                            </label>
+                            <br>
+
+                            <label>Código de seguridad:
+                                <!-- for="tel" -->
+                                <input type="text" class="content"  required>
+                                <!-- name="telephone" id="telefono" -->
+                            </label>
+                            <br>
+
+                            <label>Cliente:
+                                <!-- for="email" -->
+                                <input type="text" class="content" placeholder="Ingrese su Nombre y Apellidos" required>
+                                <!-- name="email"  id="email"-->
+                            </label>
+                                                   
+                            <br><br>
+
+                            <input type="reset" value="Regresar" class="button">
+                            <!-- reset -->
+
+                            <input type="submit" value="Pagar" class="button">
+                            <!-- submit -->
+
+                        </div> 
+                    </form>  
+                
+                </div>
+
+            </div>
+                
+
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="main">    
+                    <form action="">
+                        <h1 class="subtitulo">Datos de la compra</h1>
+                        <hr width="100%" color="#787878" />
+
+                        <label class="det">Nº de Orden:
+                            <!-- for="" -->
+                            <input class="box" type="number" placeholder="000000" readonly>
+                            <!-- name="" id="" -->
+                        </label>
+                        <br>
+    
+                        <label class="det">Comercio: 
+                            <!-- for="" -->
+                            <input class="box" type="text" placeholder="Chasqui Book" readonly>
+                            <!-- name="" id=""-->
+                        </label>
+                        <br>
+    
+                        <label class="det">Producto:
+                            <!-- for="" -->
+                            <input class="box" type="text" placeholder="Venta CB" readonly>
+                            <!-- name="" id="" -->
+                        </label>
+                        <br>
+    
+                        <hr width="100%" color="#787878" />
+                        <label class="det">MONTO:
+                            <!-- for="" -->
+                            <input class="box" type="number" placeholder="S/. 0.00" readonly>
+                            <!-- name=""  id=""-->
+                        </label>
+                    </form>
+
+                </div>               
+            </div>
+
+        </div>
+    </div>    
+    <script src="js/bootstrap.js"></script>
+    <script src="js/headroom.min.js"></script>
+    <script src="js/menu-flex.js"></script>
+</body>
+</html>

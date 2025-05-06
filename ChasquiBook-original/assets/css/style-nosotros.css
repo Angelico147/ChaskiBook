@@ -1,0 +1,53 @@
+.banner-title{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.container-d{
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+}
+
+.descripcion{
+    text-align: justify;
+    font-size: 1em;
+}
+
+.row{
+    margin: 20px auto;
+    width: 59%;
+}
+
+.ods{
+    width: 100%;
+} 
+
+.subtitulo{
+    text-align: justify;
+    font-size: 1em;
+    font-weight: bold;
+    width: 87%;
+}
+
+.descripcion-2{
+    text-align: justify;
+    font-size: 1em;
+    width: 87%;
+}
+
+@media screen and (max-width: 640px){
+    .container-d{
+        width: 75%;
+    }
+
+    .row{
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .subtitulo, .descripcion-2{
+        margin: 20px auto;
+    }
+} 

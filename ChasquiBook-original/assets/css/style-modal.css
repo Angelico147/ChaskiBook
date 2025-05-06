@@ -1,0 +1,62 @@
+:root{
+    --color-primario: #3A91AF;
+    --color-secundario: #082B45;
+    --color-terciario: #000000;
+    --color-sombras: #74777a;
+    --color-títulos: #000000;
+    --color-fondo: #faf8f8;
+}
+
+.modal-titulo{
+    font-weight: bold;
+
+}
+.modal-prestamo label{
+    color: var(--color-secundario);
+    font-weight: bold;
+}
+
+.modal-prestamo input{
+    border-color: var(--color-primario);
+}
+
+.modal-prestamo select {
+    border-color: var(--color-primario);
+}
+
+.btn-confirmar{
+    background-color: var(--color-primario);
+    border-color: var(--color-primario);
+}
+
+.btn-confirmar:hover{
+    background-color: var(--color-secundario);
+    border-color: var(--color-secundario);
+}
+
+.modal-detalles p{
+    text-align: justify;
+}
+
+.modal-detalles a{
+    font-weight: bold;
+    color: var(--color-secundario);
+}
+
+.modal-detalles a:hover{
+    font-weight: bold;
+    color: var(--color-primario);
+}
+
+.modal-detalles span{
+    font-weight: bold;
+}
+
+.modal-detalles li{
+    list-style: none;
+}
+
+.btn-comprar{
+    text-decoration: none;
+    color: #fff !important; 
+}

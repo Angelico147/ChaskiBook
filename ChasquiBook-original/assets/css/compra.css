@@ -1,0 +1,172 @@
+body{
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    z-index: 10;
+    padding: 4em 0 18em;
+    top: 3.9em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container::after{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main{
+    background: #FAFAFA;
+    border-radius: 1em;
+    box-shadow: 0px 4px 5px #0000003a;
+    height: 100%;
+    padding: 2em;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.titulo{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.number{
+    width: 5%;
+    height: 5%;
+    margin-right: 0.8em;
+}
+
+.text{
+    font-family: 'Open Sans';
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .1em;
+}
+
+.description{
+    padding: 1em;
+}
+
+label, input{
+    display: flex;
+    justify-content:space-between;
+    font-family: 'Open Sans';
+    font-size: 1em;
+    font-weight: none;
+    font-style: normal;
+}
+
+.content{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    width: 430px;
+    height: 36px;
+    border-radius: 10px;
+    border: 1px solid #0000003a;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* FINAL DE INFORMACION */
+
+/* Inicio de Tipo de entrega */
+
+legend{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 0.2em;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.cargo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 30px;
+}
+
+#store, #delivery{
+    margin: 0.3em;
+}
+
+/* Final de Tipo de entrega */
+
+/* INICIO DE BOTONES */
+
+.button{
+    background: #3A91AF;
+    color: #ffffff;
+    padding: .3em;
+    border-radius: 41px;
+    border: none;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 33px;
+    text-align: center;
+    margin: 0 1.5em 0 1.5em ;
+
+    width: 220px;
+    height: 50px;
+    display:inline-block;
+
+}
+
+.button:hover{
+    background: #ffffff;
+    color: #3A91AF;
+    border: 1px solid #3A91AF;
+    /* border: 1px solid rgb(218, 15, 15); */
+    transition: background .3s ease-in-out;
+}
+
+/* FINAL DE BOTONES */
+
+/* INICIO DE RESUMEN DE COMPRA */
+
+.subtitulo{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 52px;
+}
+
+.det{
+    color: #ACA6A6;
+}
+
+.box{
+    border: none;
+    background: #FAFAFA;
+    color:#ACA6A6;
+    text-align: right;
+    width: 50%;
+}
+
+/* FINAL DE RESUMEN DE COMPRA */
